@@ -1,0 +1,50 @@
+@import "../variable.css"; /* if you're using variables */
+
+.contact-section {
+  text-align: center;
+  /* padding: 2rem; */
+}
+
+.contact-card {
+  background-color: var(--card-bg); /* Uses CSS variable from variables.css */
+  padding: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 500px; */
+  margin-bottom: 0;
+}
+
+.contact-text {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.contact-details p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color:var(--text-color);
+}
+
+.contact-details a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; /* Optional spacing */
+  }
+
+  .contact-text {
+    text-align: center;
+  }
+  
